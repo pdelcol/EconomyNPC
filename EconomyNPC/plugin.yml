@@ -1,0 +1,12 @@
+name: EconomyNPC
+main: com.resolutiongaming.pete.EconomyNPC
+version: 1.1
+commands:
+    npc:
+      description: Creates an essentials shop NPC
+      usage: "Usage: /npc <command>"
+    tokens:
+      description: Prints out your current token count
+      usage: "Usage: /tokens"
+depend: [PermissionsEx]
+softdepend: [Vault]
